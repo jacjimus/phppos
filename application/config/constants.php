@@ -93,16 +93,16 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 */
 define('NUMBER_OF_PEOPLE_CUSTOM_FIELDS',10);
 define('APPLICATION_VERSION', '18.4');
-define('ASSET_TIMESTAMP', '1640100880');
-define('BUILD_TIMESTAMP', '1645070866');
+define('ASSET_TIMESTAMP', '1735603200');
+define('BUILD_TIMESTAMP', '1735603200');
 /*
 |--------------------------------------------------------------------------
 | Custom Constants
 |--------------------------------------------------------------------------
 */
 // Data Service URI
-define('DATA_SERVICE_REDIRECT_URI_1', 'https://phppointofsalestaging.com/qbonline_redirect.php');
-define('DATA_SERVICE_REDIRECT_URI_2', 'https://phppointofsale.com/qbonline_redirect.php');
+define('DATA_SERVICE_REDIRECT_URI_1', 'https://bremnak.co.ke/qbonline_redirect.php');
+define('DATA_SERVICE_REDIRECT_URI_2', 'https://bremak.co.ke/qbonline_redirect.php');
 // Default Country Code (US)
 define('US_CODE', 'US');
 

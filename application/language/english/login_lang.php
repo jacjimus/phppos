@@ -4,7 +4,7 @@ $lang['login_username']='Username';
 $lang['login_password']='Password';
 $lang['login_go']='Go';
 $lang['login_invalid_username_and_password']='Invalid username/password';
-$lang['login_welcome_message']='Welcome to the PHP Point Of Sale System. To continue, please login using your username and password below.';
+$lang['login_welcome_message']='Welcome to the Bremak POS System. To continue, please login using your username and password below.';
 $lang['login_version'] = 'Version';
 $lang['login_confirm_password'] = 'Confirm password';
 $lang['login_reset_password_for'] = 'Reset password for';
@@ -24,17 +24,17 @@ $lang['login_employee_is_not_assigned_to_any_locations'] = 'Employee is not assi
 $lang['login_unsupported_browser'] = 'You are using an unsupported browser. Please update your browser. We recommend <a href="http://getfirefox.com" target="_blank">Firefox</a> or <a href="http://google.com/chrome" target="_blank">Chrome</a>.';
 $lang['login_choose_action'] = 'Choose action';
 
-$lang['login_resign_text'] = 'Your subscription to PHP Point Of Sale was cancelled. If this was in error please signup again using the following links:';
+$lang['login_resign_text'] = 'Your subscription to Bremak POS was cancelled. If this was in error please signup again using the following links:';
 
 
 $lang['login_force_password_change'] = 'You must change your password as required by person who created your account';
-$lang['login_payment_failed_text'] = 'Your payment for PHP Point Of Sale has failed. Please follow the below link for instructions on how to update your credit card in paypal';
+$lang['login_payment_failed_text'] = 'Your payment for Bremak POS has failed. Please follow the below link for instructions on how to update your credit card in paypal';
 
 $lang['login_swich_user_success'] = 'Switching of employee successfull';
 $lang['login_trail_info'] = 'Your trial is still going and ends on';
 $lang['login_trial_info_2'] = 'To activate billing click button below';
-$lang['login_trial_over'] = 'Your trial for PHP Point Of Sale has ended. To continue using PHP POS you can click the link below to enter billing information';
+$lang['login_trial_over'] = 'Your trial for Bremak POS has ended. To continue using PHP POS you can click the link below to enter billing information';
 $lang['login_activate'] = 'Activate account\'s billing information';
-$lang['login_resignup'] = 'Re-Signup for PHP Point Of Sale';
+$lang['login_resignup'] = 'Re-Signup for Bremak POS';
 $lang['login_you_are_not_allowed_to_login_at_this_time'] = 'You are not allowed to login at this time';
 ?>

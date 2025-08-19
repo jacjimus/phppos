@@ -1,13 +1,13 @@
 <?php
 
-$lang['migrate_title'] = 'Upgrade PHP Point Of Sale Database';
-$lang['migrate_message'] = 'We have detected that PHP Point Of Sale\'s database needs to be upgraded. Click the Upgrade Database button below to start the process. After the process is complete you can login to PHP Point Of Sale';
+$lang['migrate_title'] = 'Upgrade Bremak POS Database';
+$lang['migrate_message'] = 'We have detected that Bremak POS\'s database needs to be upgraded. Click the Upgrade Database button below to start the process. After the process is complete you can login to Bremak POS';
 $lang['migrate_upgrade_database'] = 'Upgrade Database';
 $lang['migrate_complete'] = 'Complete';
 $lang['migrate_starting'] = 'Starting';
 $lang['migrate_login_to_upgraded_pos'] = 'Login to Upgraded PHP POS';
-$lang['migrate_setup_phppos'] = 'Install PHP Point Of Sale';
-$lang['migrate_install_message'] = 'Welcome to PHP Point Of Sale! Click the button below to install your database! This process can take a few minutes. After the process is complete you can login to your new POS!';
+$lang['migrate_setup_phppos'] = 'Install Bremak POS';
+$lang['migrate_install_message'] = 'Welcome to Bremak POS! Click the button below to install your database! This process can take a few minutes. After the process is complete you can login to your new POS!';
 $lang['migrate_install_database'] = 'Install Database';
 $lang['migrate_login_to_new_pos'] = 'Login to your PHP POS System';
 $lang['migrate_init'] = 'Initialize';

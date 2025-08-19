@@ -58,11 +58,7 @@
 		
 		
     </script>
-<?php
-$this->load->helper('demo');
-if (is_on_demo_host()) { ?>		
-	<script src="//phppointofsale.com/js/iframeResizer.contentWindow.min.js"></script>
-<?php } ?>		
+
 </head>
 <body>	
 	
@@ -134,15 +130,7 @@ if (is_on_demo_host()) { ?>
                 
                         <div class="bottom_info">
                             <a href="<?php echo site_url('login/reset_password') ?>" class="pull-right flip-link to-recover"><?php echo lang('login_reset_password').'?'; ?></a>
-                            
-                            <?php 
-									 $this->load->helper('update');
-									 if (!is_on_phppos_host()) {?>
-                                <span><?php echo anchor('login/is_update_available', lang('common_check_for_update'), array('class' => 'checkForUpdate pull-left')); ?></span>&nbsp;
-                                <span id="spin" class="hidden">
-                                    <i class="ion ion-load-d ion-spin"></i>
-                                </span>
-                            <?php } ?>
+
                         </div>      
                         <div class="clearfix"></div>
                         <button type="submit" class="btn btn-primary btn-block"><?php echo lang('login_login'); ?></button>
@@ -151,34 +139,6 @@ if (is_on_demo_host()) { ?>
                         <p>
                             <span class="badge bg-success"><?php echo APPLICATION_VERSION; ?></span> <?php echo lang('common_built_on'). ' '.BUILT_ON_DATE;?>
                         </p>
-							
-                        <?php if (isset($trial_on) && $trial_on === true && !isset($trial_over)) { ?>
-                           <div class="alert alert-success">
-                            <?php echo lang('login_trail_info'). ' '.date(get_date_format(), strtotime($cloud_customer_info['trial_end_date'])).'. '.lang('login_trial_info_2'); ?>
-                            </div>
-                            <a class="btn btn-block btn-success" href="https://phppointofsale.com/update_billing.php?store_username=<?php echo $cloud_customer_info['username'];?>" target="_blank"><?php echo lang('common_update_billing_info');?></a>
-                        <?php } ?>
-						
-							
-                        <?php if (isset($subscription_payment_failed) && $subscription_payment_failed === true) { ?>
-                           <div class="alert alert-danger">
-                                <?php echo lang('login_payment_failed_text'); ?>
-                            </div>
-                            <a class="btn btn-block btn-success" href="https://phppointofsale.com/update_billing.php?store_username=<?php echo $cloud_customer_info['username'];?>" target="_blank"><?php echo lang('common_update_billing_info');?></a>
-                        <?php } ?>
-								
-                        <?php if (isset($subscription_cancelled_within_5_days) && $subscription_cancelled_within_5_days === true) { ?>
-                            <div class="alert alert-danger">
-                                <?php echo lang('login_resign_text'); ?>
-                            </div>
-                        
-                            <ul class="list-inline">
-                            <li>
-                                <a class="btn btn-block btn-sm btn-success" href="https://phppointofsale.com/update_billing.php?store_username=<?php echo $cloud_customer_info['username'];?>" target="_blank"><?php echo lang('login_resignup');?></a>
-                            </li>
-						</ul>
-
-                        <?php } ?>
                     </div>                
                 </div>
             </div>          

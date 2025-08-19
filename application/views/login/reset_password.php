@@ -3,7 +3,7 @@
 <head>
 	 <title><?php 
 	$this->load->helper('demo');	 
-	  echo $this->config->item('company').' -- '.lang('common_powered_by').' PHP Point Of Sale' ?></title>
+	  echo $this->config->item('company').' -- '.lang('common_powered_by').' Bremak POS' ?></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <base href="<?php echo base_url();?>" />

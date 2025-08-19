@@ -101,10 +101,10 @@ define('BUILD_TIMESTAMP', '1735603200');
 |--------------------------------------------------------------------------
 */
 // Data Service URI
-define('DATA_SERVICE_REDIRECT_URI_1', 'https://bremnak.co.ke/qbonline_redirect.php');
+define('DATA_SERVICE_REDIRECT_URI_1', 'https://bremak.co.ke/qbonline_redirect.php');
 define('DATA_SERVICE_REDIRECT_URI_2', 'https://bremak.co.ke/qbonline_redirect.php');
 // Default Country Code (US)
-define('US_CODE', 'US');
+define('US_CODE', 'KEN');
 
 
 $clientID = (!defined("ENVIRONMENT") or ENVIRONMENT == 'development') ? 'L005CLJaxaNGHbOXWfeTxxlnpLyYEtZnRE2Ap6Mg7PbDvJrJmg' : 'L0jFuF24v3zQMkY19hxFNT1G9j48iI16u5vHUHymUY7kbNqWtX';

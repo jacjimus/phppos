@@ -2,7 +2,7 @@
 <html class="<?php echo $this->config->item('language');?>">
 <head>
 	<meta charset="UTF-8" />
-    <title>PHP Point Of Sale</title>
+    <title>Bremak POS</title>
 	<link rel="icon" href="<?php echo base_url();?>favicon.ico" type="image/x-icon"/>	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
 	<base href="<?php echo base_url();?>" />

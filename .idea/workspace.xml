@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f58ab098-dc2c-4ed5-ac37-397d9f204dca" name="Changes" comment="" />
+    <list default="true" id="f58ab098-dc2c-4ed5-ac37-397d9f204dca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/application/config/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/login/do_reset_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/login/do_reset_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/login/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/login/reset_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/login/reset_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/login/reset_password_enter_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/login/reset_password_enter_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/login/subscription_cancelled.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/login/subscription_cancelled.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/login/trial_over.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/login/trial_over.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/migrate/start.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/migrate/start.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/partial/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/partial/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/partial/header_standalone.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/partial/header_standalone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/sales/mercury_hosted_checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/sales/mercury_hosted_checkout.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755611715791</updated>
-      <workItem from="1755611716954" duration="1829000" />
+      <workItem from="1755611716954" duration="2373000" />
     </task>
     <servers />
   </component>

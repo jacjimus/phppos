@@ -80,7 +80,7 @@ $db['default']['password'] = "njdw:da!-MJHNs34=x";
 $db['default']['database'] = "SALESPOSDB";
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = 'phppos_';
-$db['default']['pconnect'] = TRUE;
+$db['default']['pconnect'] = FALSE;
 $db['default']['db_debug'] = TRUE;
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = '';

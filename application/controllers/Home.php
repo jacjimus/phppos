@@ -6,7 +6,6 @@ class Home extends Secure_area
 	{
 		parent::__construct();
 
-        var_dump($this->Appconfig);die;
 		$this->load->helper('report');
 		$this->lang->load('module');
 		$this->lang->load('home');

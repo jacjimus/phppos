@@ -25,6 +25,6 @@ jobs:
         run: |
           ssh -tt ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
             cd /var/www/sale
-            git pull origin main
+            git pull 
             exit
           EOF
